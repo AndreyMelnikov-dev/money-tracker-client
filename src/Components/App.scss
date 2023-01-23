@@ -168,12 +168,13 @@ button {
     font-weight: 600;
 }
 
-body {
+body * {
     font-family: "Montserrat";
 }
 
 // app-wrapper
 .app-wrapper {
-    max-width: 600px;
+    max-width: 400px;
+    width: calc(100% - 40px);
     margin: 0 auto;
 }

@@ -1,0 +1,31 @@
+.auth-header {
+    height: 52px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.auth-form {
+    display: grid;
+    gap: 12px;
+}
+
+.auth-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+}
+
+.auth-links {
+    display: grid;
+    gap: 8px;
+    &__item {
+        font-size: 14px;
+        line-height: 17px;
+        color: #CCC7C7;
+    }
+}
