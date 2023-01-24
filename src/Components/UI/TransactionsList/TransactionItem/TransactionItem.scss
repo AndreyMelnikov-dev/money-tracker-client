@@ -1,0 +1,42 @@
+.trans-item {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 50px auto 120px;
+    &__info {
+        display: grid;
+        gap: 6px;
+    }
+    &__title {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #424242;
+    }
+    &__more {
+        display: grid;
+        gap: 6px;
+    }
+    &__price {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+        &.expense {
+            color: #D92B2B;
+        }
+        &.income {
+            color: #4BC737;
+        }
+    }
+    .trans-more {
+        display: grid;
+        grid-template-columns: 20px auto;
+        gap: 6px;
+        align-items: center;
+        &__title {
+            font-size: 12px;
+            line-height: 15px;
+            color: #CCC7C7;
+        }
+    }
+}

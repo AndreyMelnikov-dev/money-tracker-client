@@ -1,0 +1,14 @@
+.trans-list {
+    display: grid;
+    gap: 22px;
+}
+
+.trans-line {
+    display: grid;
+    gap: 16px;
+    &__date {
+        font-size: 12px;
+        line-height: 15px;
+        color: #CCC7C7;
+    }
+}
