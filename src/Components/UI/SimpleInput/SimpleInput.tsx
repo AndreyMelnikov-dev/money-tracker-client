@@ -18,7 +18,7 @@ const SimpleInput: FC<ISimpleInput> = (props) => {
 
     return (
         <label className={s.box}>
-            {props.title && <span className={s.title}>{props.title}</span>}
+            {props.title && <span className='f8'>{props.title}</span>}
             <input
                 className={s.input}
                 type={props.type || 'text'}

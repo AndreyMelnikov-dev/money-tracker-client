@@ -1,8 +1,9 @@
-.trans-item {
+.account-item {
+    position: relative;
     display: grid;
     gap: 12px;
     grid-template-columns: 50px auto 120px;
-    position: relative;
+    align-items: start;
     &:before {
         content: '';
         position: absolute;
@@ -23,23 +24,7 @@
         display: grid;
         gap: 6px;
     }
-    &__more {
-        display: grid;
-        gap: 6px;
-    }
     &__price {
         text-align: right;
-        &.expense {
-            color: #D92B2B;
-        }
-        &.income {
-            color: #4BC737;
-        }
-    }
-    .trans-more {
-        display: grid;
-        grid-template-columns: 20px auto;
-        gap: 6px;
-        align-items: center;
     }
 }

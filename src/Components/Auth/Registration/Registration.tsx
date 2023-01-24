@@ -15,7 +15,7 @@ const Registration: FC = () => {
             <div className='auth-bottom'>
                 <SimpleButton>Регистрация</SimpleButton>
                 <div className='auth-links'>
-                    <NavLink to='/auth/login' className='auth-links__item'>Войти</NavLink>
+                    <NavLink to='/auth/login' className='gray f9'>Войти</NavLink>
                 </div>
             </div>
         </form>

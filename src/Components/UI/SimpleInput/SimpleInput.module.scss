@@ -3,19 +3,16 @@
     gap: 8px;
 }
 
-.title {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    color: #424242;
-}
-
 .input {
     border: 1px solid #CCC7C7;
     border-radius: 12px;
     box-sizing: border-box;
     width: 100%;
     padding: 12px 12px;
+    transition: .3s border-color;
+    &:focus {
+        border-color: #3649B0;
+    }
     &::placeholder {
         color: #CCC7C7;
     }

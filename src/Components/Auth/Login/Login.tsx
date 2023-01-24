@@ -12,8 +12,8 @@ const Login = () => {
             <div className='auth-bottom'>
                 <SimpleButton>Войти</SimpleButton>
                 <div className='auth-links'>
-                    <NavLink to='/auth/reg' className='auth-links__item'>Регистрация</NavLink>
-                    <NavLink to='/auth/recovery' className='auth-links__item'>Забыли пароль</NavLink>
+                    <NavLink to='/auth/reg' className='gray f9'>Регистрация</NavLink>
+                    <NavLink to='/auth/recovery' className='gray f9'>Забыли пароль</NavLink>
                 </div>
             </div>
             

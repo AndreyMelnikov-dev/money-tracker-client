@@ -1,0 +1,9 @@
+.accounts-page {
+    &__title {
+        margin-bottom: 22px;
+    }
+    &__list {
+        display: grid;
+        gap: 16px;
+    }
+}
