@@ -4,9 +4,9 @@ import './AccountItem.scss'
 
 const AccountItem = () => {
     return (
-        <NavLink to='' className='account-item'>
+        <NavLink to='./4' className='account-item'>
             <IconBig>
-                Hui
+                Hi
             </IconBig>
             <div className='account-item__info'>
                 <h2 className='f10'>Title of transaction</h2>

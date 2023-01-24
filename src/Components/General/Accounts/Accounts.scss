@@ -6,4 +6,10 @@
         display: grid;
         gap: 16px;
     }
+    &__add {
+        margin-top: 22px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }

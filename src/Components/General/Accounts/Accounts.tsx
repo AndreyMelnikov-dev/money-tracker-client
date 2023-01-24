@@ -1,5 +1,6 @@
 import './Accounts.scss'
 import AccountItem from './AccountItem/AccountItem'
+import SimpleButton from '../../UI/SimpleButton/SimpleButton'
 
 const Accounts = () => {
     return (
@@ -11,6 +12,7 @@ const Accounts = () => {
                 <AccountItem />
                 <AccountItem />
             </div>
+            <SimpleButton className='accounts-page__add'>Новый счет</SimpleButton>
         </div>
     )
 }

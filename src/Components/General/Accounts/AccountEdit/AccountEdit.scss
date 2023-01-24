@@ -1,0 +1,44 @@
+.account-edit {
+    &__title {
+        margin-bottom: 18px;
+    }
+    &__form {
+        .inputs {
+            display: grid;
+            gap: 12px;
+            grid-template-areas: 'n n n n n' 'v v v v s';
+            margin-bottom: 12px;
+            label {
+                &:nth-child(1) {
+                    grid-area: n;
+                }
+                &:nth-child(2) {
+                    grid-area: v;
+                }
+                &:nth-child(3) {
+                    grid-area: s;
+                }
+            }
+        }
+        .icons {
+            &>.f8 {
+                margin: 0 0 8px 12px;
+            }
+            .list {
+                display: inline-grid;
+                width: 100%;
+                overflow: auto;
+                grid-auto-flow: column;
+                gap: 8px;
+                padding-bottom: 12px;
+                justify-content: start;
+            }
+        }
+        .submit {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 10px;
+        }
+    }
+}
