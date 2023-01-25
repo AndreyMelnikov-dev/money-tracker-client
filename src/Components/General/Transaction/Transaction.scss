@@ -1,0 +1,84 @@
+.transaction-types {
+    display: inline-grid;
+    justify-content: start;
+    width: 100%;
+    gap: 16px;
+    grid-auto-flow: column;
+    margin-bottom: 16px;
+    &__item {
+        padding: 6px 22px;
+        border-radius: 12px;
+        background-color: #F3F3F3;
+        &.active {
+            background-color: #4B5EC5;
+            color: #FFF;
+            order: -1;
+        }
+    }
+}
+
+.transaction-value {
+    margin-bottom: 16px;
+    input {
+        padding: 10px 0;
+        text-align: center;
+        width: 100%;
+        border: 1px solid #F3F3F3;
+        border-left: 0;
+        border-right: 0;
+    }
+}
+
+.transaction-icons {
+    display: inline-grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    overflow: auto;
+    width: 100%;
+    gap: 12px;
+    text-align: center;
+    align-items: start;
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+    &__element {
+        display: grid;
+        gap: 4px;
+        justify-items: center;
+    }
+}
+
+.transaction-more {
+    border-top: 1px solid #F3F3F3;
+    margin-bottom: 22px;
+    &__line {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px;
+        border-bottom: 1px solid #F3F3F3;
+        transition: .3s background-color;
+        box-sizing: border-box;
+        cursor: pointer;
+        &:hover {
+            background-color: rgba(198, 195, 195, 0.1);
+        }
+        .title {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+    }
+}
+
+.transaction-actions {
+    display: grid;
+    gap: 26px;
+    justify-content: center;
+    &__remove {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #D92B2B;
+    }
+}

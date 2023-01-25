@@ -1,0 +1,27 @@
+.modal {
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+}
+
+.content {
+    position: relative;
+    margin: 20vh auto;
+    max-width: 600px;
+    padding: 22px;
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+    background-color: #FFF;
+    border-radius: 12px;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    bottom: calc(100% + 4px);
+}

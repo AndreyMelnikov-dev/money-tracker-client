@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom'
 import IconBig from '../../../UI/IconBig/IconBig'
 import TransactionsList from '../../../UI/TransactionsList/TransactionsList'
 import './AccountPage.scss'
+import edit from '../../../../Static/edit.svg'
 
 const AccountPage = () => {
     return (
@@ -10,7 +11,9 @@ const AccountPage = () => {
                 <IconBig>Ac</IconBig>
                 <div className='account-page__title'>
                     <h2 className='f5'>Main Visa</h2>
-                    <NavLink to='./edit' className='account-page__edit'>Edit</NavLink>
+                    <NavLink to='./edit' className='account-page__edit'>
+                        <img src={edit} />
+                    </NavLink>
                 </div>
                 <div className='f10'>999 999 $</div>
             </div>

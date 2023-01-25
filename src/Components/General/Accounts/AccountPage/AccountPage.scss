@@ -14,8 +14,14 @@
         gap: 6px;
     }
     &__edit {
-        background-color: red;
         padding: 6px;
+        width: 20px;
+        height: auto;
+        img {
+            width: 100%;
+            height: auto;
+            opacity: .6;
+        }
     }
     &__total {
         display: flex;
