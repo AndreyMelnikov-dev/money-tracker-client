@@ -7,11 +7,14 @@
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.7);
     overflow: auto;
+    opacity: 0;
+    pointer-events: none;
+    transition: .3s opacity;
 }
 
 .content {
     position: relative;
-    margin: 20vh auto;
+    margin: 10vh auto 5vh;
     max-width: 600px;
     padding: 22px;
     box-sizing: border-box;

@@ -82,3 +82,28 @@
         color: #D92B2B;
     }
 }
+
+// modals
+.transaction__modal-title {
+    margin-bottom: 18px;
+}
+
+.accounts-list {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    &__item {
+        display: grid;
+        gap: 4px;
+        justify-items: center;
+        cursor: pointer;
+    }
+}
+
+.accounts-modal__submit {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 22px;
+}

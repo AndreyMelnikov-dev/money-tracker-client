@@ -22,7 +22,7 @@ const SimpleInput: FC<ISimpleInput> = (props) => {
             <input
                 className={s.input}
                 type={props.type || 'text'}
-                value={props.value || ''}
+                // value={props.value || ''}
                 placeholder={props.placeholder || 'Write Here'}
             />
         </label>

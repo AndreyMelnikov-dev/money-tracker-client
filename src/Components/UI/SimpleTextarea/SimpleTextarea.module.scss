@@ -1,0 +1,21 @@
+.box {
+    display: grid;
+    gap: 8px;
+}
+
+.textarea {
+    resize: none;
+    border: 1px solid #CCC7C7;
+    border-radius: 12px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 12px;
+    height: 120px;
+    transition: .3s border-color;
+    &:focus {
+        border-color: #3649B0;
+    }
+    &::placeholder {
+        color: #CCC7C7;
+    }
+}
