@@ -14,13 +14,13 @@ const Accounts = () => {
     const accountsListTest: IAccount[] = [
         {
             id: '1',
-            title: 'Налик Дом',
+            title: 'Наличные Дом',
             value: 1200000,
             currency: '$',
             description: 'smth about',
         },
         {
-            id: '1',
+            id: '4',
             title: 'Visa Card',
             value: 12000,
             currency: '$',
@@ -35,7 +35,7 @@ const Accounts = () => {
         },
         {
             id: '3',
-            title: 'MasterCard',
+            title: 'Карта основа',
             value: 100,
             currency: '$',
             description: 'Credit Card',
@@ -51,7 +51,7 @@ const Accounts = () => {
         }, 1000)
     }, [])
 
-    const accountState = useSelector((state: RootState) => state.account)
+    const accountState = useSelector((state: RootState) => state.accounts)
     const isLoading = accountState.isLoading
     const accountList = accountState.accountList.map(account => <AccountItem {...account} key={account.id} />)
 

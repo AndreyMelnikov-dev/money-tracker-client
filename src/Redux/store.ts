@@ -1,11 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit'
 import userSlice from './userSlice'
 import accountsSlice from './accountsSlice'
+import accountPageSlice from './accountPageSlice'
 
 export const store = configureStore({
     reducer: {
         user: userSlice,
-        account: accountsSlice
+        accounts: accountsSlice,
+        accountPage: accountPageSlice
     }
 })
 
