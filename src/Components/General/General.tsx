@@ -16,6 +16,7 @@ const General = () => {
                     <Route path='/' element={<Main />} />
                     <Route path='/accounts/' element={<Accounts />} />
                     <Route path='/accounts/:id' element={<AccountPage />} />
+                    <Route path='/accounts/new' element={<AccountEdit />} />
                     <Route path='/accounts/:id/edit' element={<AccountEdit />} />
                     <Route path='/transaction/:id' element={<Transaction />} />
                 </Routes>

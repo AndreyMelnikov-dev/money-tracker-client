@@ -22,11 +22,11 @@ const accountSlice = createSlice({
             state.isLoading = action.payload
         },
         setAccountList(state, action: PayloadAction<IAccount[]>) {
-            state.accountList = { ...action.payload }
+            state.accountList = [ ...action.payload ]
         }
     }
 })
 
 
-export const { setLoading } = accountSlice.actions
+export const { setLoading, setAccountList } = accountSlice.actions
 export default accountSlice.reducer
