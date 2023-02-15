@@ -3,7 +3,6 @@ import TransactionsList from "../../UI/TransactionsList/TransactionsList"
 
 const Main = () => {
 
-
   // delete on release
   const transactionsListTest: IAccount[] = [
     {

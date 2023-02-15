@@ -13,10 +13,3 @@ export default interface ITransactionItem {
     comment: string
     date: Date
 }
-
-
-
-interface finalInterface {
-    date: Date
-    transactions: ITransactionItem[]
-}
